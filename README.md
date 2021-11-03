@@ -14,3 +14,35 @@
 
 В качестве бд можно использовать SQLite. Ответы в формате JSON.
 Дедлайн 03.11 15:00 по мск
+
+
+----------------------------
+# Решение
+
+запуск
+```
+
+env\Scripts\activate
+cd rest_api_test_task
+python manage.py runserver
+
+```
+
+генерации БД
+```
+python manage.py generate_letters 
+
+```
+
+
+API
+все письма
+```
+http://127.0.0.1:8000/letters/?format=json
+```
+топ 10 адресатов за последние сутки
+```
+http://127.0.0.1:8000/stat_24/?format=json
+```
+
+
