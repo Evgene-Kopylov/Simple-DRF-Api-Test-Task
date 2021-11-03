@@ -24,8 +24,8 @@ class Command(BaseCommand):
         letter = Letter(
             email = email,
             date = fake.date_time_between(
-                datetime.datetime.now(), 
-                datetime.timedelta(days=7),
+                datetime.datetime.now() - datetime.timedelta(days=7),
+                datetime.datetime.now()
                 ),
             theme = fake.name()
         )
@@ -36,8 +36,8 @@ class Command(BaseCommand):
                     letter = Letter(
                         email = email,
                         date = fake.date_time_between(
-                            datetime.datetime.now(), 
-                            datetime.timedelta(days=7),
+                            datetime.datetime.now() - datetime.timedelta(days=7),
+                            datetime.datetime.now()
                             ),
                         theme = fake.name()
                     )
