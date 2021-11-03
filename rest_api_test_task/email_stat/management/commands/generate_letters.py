@@ -11,7 +11,8 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         print('How many?')
-        n = int(input())
+        # n = int(input())
+        n = 19
         for i in range(n):
             self.generate_latters_history()
 
