@@ -38,7 +38,8 @@ python manage.py generate_letters
 ```
 
 
-API
+# API
+
 все письма
 ```
 http://127.0.0.1:8000/letters/?format=json
