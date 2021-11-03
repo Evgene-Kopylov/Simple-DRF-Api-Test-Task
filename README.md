@@ -24,11 +24,15 @@
 
 env\Scripts\activate
 cd rest_api_test_task
+pip install -r requirements.txt
 python manage.py runserver
 
 ```
 
 генерации БД
+```
+pip install -r requirements.txt
+```
 ```
 python manage.py generate_letters 
 
