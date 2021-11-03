@@ -1,4 +1,6 @@
-# mainslab test task
+# Тестовое задание от Mainslab
+
+# Задание
  REST Api using Django rest framework
 
 Реализовать REST API используя DRF
@@ -16,7 +18,7 @@
 Дедлайн 03.11 15:00 по мск
 
 
-----------------------------
+
 # Решение
 
 запуск
