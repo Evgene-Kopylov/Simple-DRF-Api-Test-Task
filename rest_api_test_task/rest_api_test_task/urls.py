@@ -16,10 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
-from email_stat.views import stat_24
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('email_stat.urls')),
-    path('stat_24/', stat_24),
 ]
