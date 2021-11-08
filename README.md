@@ -42,11 +42,11 @@ python manage.py generate_letters
 
 все письма
 ```
-http://127.0.0.1:8000/letters/?format=json
+http://127.0.0.1:8000/letters/
 ```
 топ 10 адресатов за последние сутки
 ```
-http://127.0.0.1:8000/stat_24/?format=json
+http://127.0.0.1:8000/stat_24/
 ```
 
 
