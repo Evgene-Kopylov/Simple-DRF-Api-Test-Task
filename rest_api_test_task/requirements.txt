@@ -1,5 +1,5 @@
 asgiref==3.4.1
-Django==3.2.13
+Django==3.2.14
 djangorestframework==3.12.4
 factory-boy==3.2.1
 Faker==9.7.1
